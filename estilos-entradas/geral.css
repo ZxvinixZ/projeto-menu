@@ -37,11 +37,29 @@ header h1 {
 
 main {
     background-color: #ffffff;
-    max-width: 310px;
+    max-width: 350px;
     margin: auto;
     padding-top: .1px;
     padding-bottom: 30px;
     border-radius: 20px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.507);
 
+}
+
+div {
+    width: 330px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+p {
+    margin: 10px;
+}
+h2 {
+    margin: auto;
 }
