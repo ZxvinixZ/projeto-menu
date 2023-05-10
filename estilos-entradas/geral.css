@@ -45,21 +45,28 @@ main {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.507);
 
 }
-
-div {
-    width: 330px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-img {
-    float: left;
-    width: 150px;
-    height: 150px;
-}
-p {
+section {
     margin: 10px;
 }
-h2 {
-    margin: auto;
+div.item {
+    display: block;
+    height: 150px;
+    position: relative;
+    margin-bottom: 20px;
+}
+img {
+    display: inline-block;
+    width: 150px;
+    border-radius: 20px;
+}
+div.descri {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+p {
+    font-size: .9em;
+    text-align: justify;
 }
