@@ -28,7 +28,7 @@ header {
     height: 45px;
     text-align: center;
     margin: 30px 0px 20px 0px;
-    padding: 5px 0px 5px 60px ;
+    padding: 5px 0px 5px 40px ;
 
 
 
@@ -40,8 +40,9 @@ header {
 h1 {
     color: #b48533;
     text-shadow: 2px 2px 6px black;
-    max-width: 160px;
-    font-size: 1em;
+    max-width: 190px;
+    font-size: 1.5em;
+    font-family: 'Marck Script', cursive;
     
 
     position: relative;
@@ -51,8 +52,8 @@ h1 {
 }
 picture {
     position: relative;
-    top: -60px;
-    left: 30%;
+    top: -80px;
+    left: 34%;
     
 }
 img {
