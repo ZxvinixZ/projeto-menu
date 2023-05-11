@@ -40,7 +40,7 @@ main {
     max-width: 350px;
     margin: auto;
     padding-top: .1px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.507);
 
@@ -50,9 +50,12 @@ section {
 }
 div.item {
     display: block;
+    width: 330px;
     height: 150px;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #16192265;
 }
 img {
     display: inline-block;
