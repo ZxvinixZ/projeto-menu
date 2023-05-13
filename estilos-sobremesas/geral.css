@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    background: url(../imagens/piso-de-madeira-marrom.jpg);
+}
+header {
+    background-color: #161922;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+
+    width: 350px;
+    height: 55px;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header h1 {
+    color: #b48533;
+    font-family: 'Marck Script', cursive;
+    font-size: 2.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-55%);
+}
+
+main {
+    background-color: #ffffff;
+    max-width: 350px;
+    margin: auto;
+    padding-top: .1px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.507);
+
+}
+section {
+    margin: 10px;
+}
+div.item {
+    display: block;
+    width: 330px;
+    height: 150px;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #16192265;
+}
+img {
+    display: inline-block;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.514);
+}
+div.descri {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+h2 {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+}
+p {
+    font-size: .9em;
+    font-family: 'Dancing Script', cursive;
+    text-align: justify;
+}
